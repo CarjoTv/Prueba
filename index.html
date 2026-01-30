@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style/style.css">
+    <script src="./src/scripts/script.js" defer></script>
+</head>
+<body>
+    <h1> Registro de producto</h1>
+    <form action="#" method="POST" id="productForm">
+        
+        <label for="Nombre del producto">Nombre del producto:<br>
+        <input type="text" id="name" name="Nombre del producto"><br>
+        </label>
+
+        <label for="precio">Precio:<br>
+        <input type="number" id="price" name="precio"><br>
+        </label>
+
+        <label for="categoria">Categoria:
+            <select id="category" name="categoria">
+            <option value="">-- Selecciona una categoria --</option>
+            <option value="Electronico">Electronico</option>
+            <option value="Hogar">Hogar</option>
+            <option value="Ropa">Ropa</option>
+            <option value="Otros">Otros</option>
+            </select>
+        </label>
+        
+        <label for="descripcion">Descripcion:<br>
+        <input type="textbox" id="description" name="descripcion"><br>
+        </label>
+
+        
+<br>
+
+        <button type="submit">Agregar Producto</button>
+    </form>
+<br>
+<hr>
+        <table id="productTable">
+            <thead>  <!-- Encabezado de la tabla -->
+                <tr>   <!-- Fila -->
+                <th>Nombre</th>  <!-- Celda de encabezado -->
+                <th>Precio</th>
+                <th>Categoria</th>
+                <th>Descripcion</th>
+                
+                </tr>
+            </thead>
+            
+            <tbody id="productTableBody">  <!-- Cuerpo de la tabla -->
+                <tr>
+                    
+                </tr>
+                <tr>
+                    
+                </tr>
+                <tr>
+                    
+                
+            </tbody>   
+        </table>
+</body>
+</html>
